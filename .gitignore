@@ -1,1 +1,37 @@
+# macOS
 .DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Logs
+*.log
+
+# Environment files
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Temporary files
+*.tmp
+*.swp
+
+# System junk
+Thumbs.db
