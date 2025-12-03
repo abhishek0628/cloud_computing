@@ -1,31 +1,4 @@
-# import torch
-# import networkx as nx
-# import matplotlib.pyplot as plt
-# from models.gnn_hueristic import GNNHeuristic
-# # from models.gnn_heuristic import GNNHeuristic
 
-
-# # Load GNN heuristic
-# gnn = GNNHeuristic()
-# gnn.load_state_dict(torch.load("checkpoints/gnn_heuristic.pth"))
-# gnn.eval()
-
-# # Example: simple graph visualization
-# G = nx.erdos_renyi_graph(10, 0.3)
-# scores = []
-
-# for node in G.nodes():
-#     node_feat = torch.randn(1, 6)  # example node features
-#     edge_feat = torch.randn(1, 4)  # example edge features
-#     with torch.no_grad():
-#         score = gnn(node_feat, edge_feat)
-#         scores.append(score.item())
-
-# nx.draw(G, with_labels=True, node_color=scores, cmap=plt.cm.viridis)
-# plt.title("Heuristic Function Visualization")
-# plt.colorbar(label="GNN Heuristic Score")
-# plt.savefig("heuristic_visualization.png")
-# plt.show()
 import torch
 import torch.nn as nn
 import numpy as np
@@ -80,5 +53,5 @@ plt.title("Heuristic Function Visualization")
 plt.xlabel("Sample Index")
 plt.ylabel("Heuristic Output")
 plt.grid(True)
-plt.savefig("heuristic_visualization.png")
+plt.savefig("./plots/heuristic_visualization.png")
 plt.show()
