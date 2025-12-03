@@ -1,3 +1,4 @@
+# src/models/transformer_encoder.py
 """
 Transformer encoder for encoding VNF resource vectors.
 

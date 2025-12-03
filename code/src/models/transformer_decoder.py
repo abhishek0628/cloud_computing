@@ -1,3 +1,4 @@
+# src/models/transformer_decoder.py
 """
 Transformer Decoder for auto-regressive VNF placement along a given ACO path.
 

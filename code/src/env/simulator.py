@@ -1,3 +1,4 @@
+# src/env/simulator.py
 import numpy as np
 
 def compute_path_delay(G, path):

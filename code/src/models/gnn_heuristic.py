@@ -1,3 +1,4 @@
+# src/models/gnn_hueristic.py
 """
 GNN-based heuristic generator (η_theta) for ACO.
 
